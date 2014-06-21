@@ -14,7 +14,6 @@
 
 # Binaries
 PRODUCT_COPY_FILES += \
-    vendor/bq/rk3188-common/proprietary/bin/performance:system/bin/performance \
     vendor/bq/rk3188-common/proprietary/bin/wfd:system/bin/wfd
 
 # Libraries
@@ -24,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/rk3188-common/proprietary/lib/libOMX_Core.so:system/lib/libOMX_Core.so \
     vendor/bq/rk3188-common/proprietary/lib/libomxvpu_dec.so:system/lib/libomxvpu_dec.so \
     vendor/bq/rk3188-common/proprietary/lib/libomxvpu_enc.so:system/lib/libomxvpu_enc.so \
-    vendor/bq/rk3188-common/proprietary/lib/libperformance_runtime.so:system/lib/libperformance_runtime.so \
     vendor/bq/rk3188-common/proprietary/lib/libRkOMX_Resourcemanager.so:system/lib/libRkOMX_Resourcemanager.so \
     vendor/bq/rk3188-common/proprietary/lib/librkswscale.so:system/lib/librkswscale.so \
     vendor/bq/rk3188-common/proprietary/lib/librkwmapro.so:system/lib/librkwmapro.so \
