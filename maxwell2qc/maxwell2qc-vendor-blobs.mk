@@ -16,7 +16,7 @@
 # Binaries
 PRODUCT_COPY_FILES += \
     vendor/bq/maxwell2qc/proprietary/bin/akmd:system/bin/akmd \
-    vendor/bq/maxwell2plus/proprietary/bin/glgps:system/bin/glgps
+    vendor/bq/maxwell2qc/proprietary/bin/glgps:system/bin/glgps
 
 # HAL
 PRODUCT_COPY_FILES += \
